@@ -3,25 +3,25 @@
 <style>
     .checkout-section {
         padding: 45px 0 90px;
-        background-color: #f8fafc;
+        background-color: #f7faf8;
     }
 
     .checkout-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 12px;
         padding: 28px;
         margin-bottom: 24px;
-        box-shadow: 0 2px 10px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 2px 10px rgba(6, 36, 23, 0.03);
     }
 
     .checkout-card-title {
         font-size: 20px;
         font-weight: 700;
-        color: #1a2224;
+        color: #17261e;
         margin-bottom: 22px;
         padding-bottom: 12px;
-        border-bottom: 2px solid #f1f5f9;
+        border-bottom: 2px solid #f1f5f2;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -35,12 +35,12 @@
         display: block;
         font-size: 14px;
         font-weight: 600;
-        color: #334155;
+        color: #2f3d36;
         margin-bottom: 6px;
     }
 
     .checkout-form-group label .req {
-        color: #ef4444;
+        color: #d81e23;
     }
 
     .checkout-input {
@@ -48,17 +48,17 @@
         height: 46px;
         padding: 10px 14px;
         font-size: 14px;
-        color: #1a2224;
+        color: #17261e;
         background-color: #fff;
-        border: 1.5px solid #cbd5e1;
+        border: 1.5px solid #cdd7d1;
         border-radius: 8px;
         transition: all 0.2s ease;
     }
 
     .checkout-input:focus {
-        border-color: #335aff;
+        border-color: #0b7a3d;
         outline: none;
-        box-shadow: 0 0 0 3px rgba(51, 90, 255, 0.12);
+        box-shadow: 0 0 0 3px rgba(11, 122, 61, 0.12);
     }
 
     textarea.checkout-input {
@@ -67,8 +67,8 @@
     }
 
     .checkout-checkbox-box {
-        background: #f8fafc;
-        border: 1.5px solid #e2e8f0;
+        background: #f7faf8;
+        border: 1.5px solid #e2e9e4;
         border-radius: 10px;
         padding: 14px 16px;
         margin-bottom: 18px;
@@ -76,7 +76,7 @@
     }
 
     .checkout-checkbox-box:hover {
-        border-color: #cbd5e1;
+        border-color: #cdd7d1;
     }
 
     .checkout-checkbox-label {
@@ -86,7 +86,7 @@
         cursor: pointer;
         font-size: 15px;
         font-weight: 600;
-        color: #1e293b;
+        color: #17261e;
         margin: 0;
         user-select: none;
     }
@@ -94,7 +94,7 @@
     .checkout-checkbox-label input[type="checkbox"] {
         width: 18px;
         height: 18px;
-        accent-color: #335aff;
+        accent-color: #0b7a3d;
         cursor: pointer;
     }
 
@@ -106,7 +106,7 @@
     }
 
     .payment-option-card {
-        border: 1.5px solid #e2e8f0;
+        border: 1.5px solid #e2e9e4;
         border-radius: 10px;
         padding: 14px;
         cursor: pointer;
@@ -119,17 +119,17 @@
     }
 
     .payment-option-card:hover {
-        border-color: #335aff;
+        border-color: #0b7a3d;
     }
 
     .payment-option-card.active {
-        border-color: #335aff;
-        background: rgba(51, 90, 255, 0.05);
-        box-shadow: 0 3px 10px rgba(51, 90, 255, 0.12);
+        border-color: #0b7a3d;
+        background: rgba(11, 122, 61, 0.05);
+        box-shadow: 0 3px 10px rgba(11, 122, 61, 0.12);
     }
 
     .payment-option-card input[type="radio"] {
-        accent-color: #335aff;
+        accent-color: #0b7a3d;
         width: 17px;
         height: 17px;
     }
@@ -137,7 +137,7 @@
     .payment-option-card span {
         font-size: 14px;
         font-weight: 600;
-        color: #1e293b;
+        color: #17261e;
     }
 
     .checkout-product-list {
@@ -151,7 +151,7 @@
         align-items: flex-start;
         gap: 14px;
         padding: 14px 0;
-        border-bottom: 1px solid #f1f5f9;
+        border-bottom: 1px solid #f1f5f2;
     }
 
     .checkout-product-item:last-child {
@@ -162,10 +162,10 @@
         width: 68px;
         height: 68px;
         border-radius: 8px;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         object-fit: cover;
         flex-shrink: 0;
-        background: #f8fafc;
+        background: #f7faf8;
     }
 
     .checkout-product-info {
@@ -176,14 +176,14 @@
     .checkout-product-title {
         font-size: 15px;
         font-weight: 600;
-        color: #1a2224;
+        color: #17261e;
         text-decoration: none;
         display: block;
         margin-bottom: 4px;
     }
 
     .checkout-product-title:hover {
-        color: #335aff;
+        color: #0b7a3d;
     }
 
     .checkout-product-meta {
@@ -198,8 +198,8 @@
         font-weight: 600;
         padding: 2px 8px;
         border-radius: 4px;
-        background: #f1f5f9;
-        color: #475569;
+        background: #f1f5f2;
+        color: #48564f;
     }
 
     .checkout-summary-row {
@@ -208,16 +208,16 @@
         align-items: center;
         padding: 10px 0;
         font-size: 15px;
-        color: #475569;
+        color: #48564f;
     }
 
     .checkout-summary-row.grand-total {
-        border-top: 2px dashed #cbd5e1;
+        border-top: 2px dashed #cdd7d1;
         margin-top: 8px;
         padding-top: 16px;
         font-size: 18px;
         font-weight: 700;
-        color: #1a2224;
+        color: #17261e;
     }
 
     .checkout-submit-btn {
@@ -226,17 +226,17 @@
         font-size: 16px;
         font-weight: 700;
         border-radius: 10px;
-        background-color: #335aff;
+        background-color: #0b7a3d;
         color: #ffffff !important;
         border: none;
         cursor: pointer;
         transition: all 0.2s ease;
         margin-top: 16px;
-        box-shadow: 0 4px 14px rgba(51, 90, 255, 0.28);
+        box-shadow: 0 4px 14px rgba(11, 122, 61, 0.28);
     }
 
     .checkout-submit-btn:hover {
-        background-color: #2548e8;
+        background-color: #035c2d;
         transform: translateY(-1px);
     }
 
@@ -411,7 +411,7 @@
                                     </label>
 
                                     <div id="createAccountPasswordWrap" class="mt-3" style="display: {{ old('create_account') ? 'block' : 'none' }};">
-                                        <label for="account_password" style="font-size: 13px; font-weight: 600; color: #334155;">
+                                        <label for="account_password" style="font-size: 13px; font-weight: 600; color: #2f3d36;">
                                             Account Password <span class="text-danger">*</span>
                                         </label>
                                         <input type="password" id="account_password" name="account_password"
@@ -546,7 +546,7 @@
                         <div class="checkout-card" style="position: sticky; top: 20px;">
                             <div class="checkout-card-title">
                                 <span>Your Order Summary</span>
-                                <span class="badge badge-primary" style="background-color: #335aff; color: #fff; padding: 5px 10px; border-radius: 20px; font-size: 12px;">
+                                <span class="badge badge-primary" style="background-color: #0b7a3d; color: #fff; padding: 5px 10px; border-radius: 20px; font-size: 12px;">
                                     <span id="checkoutTotalItemsBadge">{{ $total_qty }}</span> Items
                                 </span>
                             </div>
@@ -587,7 +587,7 @@
                                                     <small class="text-muted d-block" style="font-size: 11px;">
                                                         BDT {{ number_format($item['price'], 2) }} &times; {{ $item['quantity'] }}
                                                     </small>
-                                                    <strong style="color: #335aff; font-size: 14px;">
+                                                    <strong style="color: #0b7a3d; font-size: 14px;">
                                                         BDT {{ number_format($item['line_total'], 2) }}
                                                     </strong>
                                                 </div>
@@ -609,7 +609,7 @@
                             </div>
                             <div class="checkout-summary-row grand-total">
                                 <span>Total Payable</span>
-                                <span id="checkoutTotal" style="color: #335aff;">BDT {{ number_format($total, 2) }}</span>
+                                <span id="checkoutTotal" style="color: #0b7a3d;">BDT {{ number_format($total, 2) }}</span>
                             </div>
 
                             <button type="submit" class="checkout-submit-btn">
@@ -622,7 +622,7 @@
         @else
             @if(empty($placed_order))
                 <div class="checkout-card text-center py-5">
-                    <h4 class="mb-2" style="color: #1a2224; font-weight: 700;">Your Shopping Cart is Empty</h4>
+                    <h4 class="mb-2" style="color: #17261e; font-weight: 700;">Your Shopping Cart is Empty</h4>
                     <p class="text-muted mb-4">Add some products to your cart before proceeding to checkout.</p>
                     <a href="{{ url('/') }}" class="btn bg-primary" style="color: #fff;">Browse Products</a>
                 </div>

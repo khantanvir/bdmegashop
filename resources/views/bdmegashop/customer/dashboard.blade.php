@@ -14,18 +14,18 @@
 <style>
     .bms-dash-wrap {
         padding: 40px 0 80px;
-        background-color: #f8fafc;
+        background-color: #f7faf8;
         min-height: 650px;
     }
 
     /* Top Navigation Tabs */
     .bms-dash-nav-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         padding: 8px 12px;
         margin-bottom: 30px;
-        box-shadow: 0 4px 18px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 4px 18px rgba(6, 36, 23, 0.04);
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -40,7 +40,7 @@
         border-radius: 12px;
         font-size: 14px;
         font-weight: 700;
-        color: #475569;
+        color: #48564f;
         text-decoration: none !important;
         border: 0;
         background: transparent;
@@ -49,14 +49,14 @@
     }
 
     .bms-dash-tab-btn:hover {
-        background: #f1f5f9;
-        color: #335aff;
+        background: #f1f5f2;
+        color: #0b7a3d;
     }
 
     .bms-dash-tab-btn.active {
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%);
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%);
         color: #ffffff !important;
-        box-shadow: 0 6px 16px rgba(51, 90, 255, 0.28);
+        box-shadow: 0 6px 16px rgba(11, 122, 61, 0.28);
     }
 
     .bms-dash-tab-badge {
@@ -64,7 +64,7 @@
         font-weight: 800;
         padding: 2px 7px;
         border-radius: 20px;
-        background: rgba(15, 23, 42, 0.08);
+        background: rgba(6, 36, 23, 0.08);
         color: inherit;
     }
 
@@ -75,38 +75,38 @@
 
     .bms-dash-tab-btn.logout-btn {
         margin-left: auto;
-        color: #ef4444;
+        color: #d81e23;
     }
 
     .bms-dash-tab-btn.logout-btn:hover {
         background: #fef2f2;
-        color: #dc2626;
+        color: #b5101a;
     }
 
     /* Stat Cards */
     .bms-stat-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         padding: 22px 24px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-bottom: 24px;
-        box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 16px rgba(6, 36, 23, 0.03);
         transition: all 0.25s ease;
     }
 
     .bms-stat-card:hover {
         transform: translateY(-4px);
-        box-shadow: 0 12px 24px rgba(15, 23, 42, 0.07);
-        border-color: #cbd5e1;
+        box-shadow: 0 12px 24px rgba(6, 36, 23, 0.07);
+        border-color: #cdd7d1;
     }
 
     .bms-stat-val {
         font-size: 28px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         line-height: 1;
         margin-bottom: 4px;
     }
@@ -114,7 +114,7 @@
     .bms-stat-label {
         font-size: 13px;
         font-weight: 600;
-        color: #64748b;
+        color: #65736c;
         margin: 0;
     }
 
@@ -132,11 +132,11 @@
     /* Section Cards */
     .bms-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 18px;
         padding: 26px 28px;
         margin-bottom: 28px;
-        box-shadow: 0 4px 18px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 18px rgba(6, 36, 23, 0.03);
     }
 
     .bms-card-header {
@@ -145,13 +145,13 @@
         justify-content: space-between;
         padding-bottom: 16px;
         margin-bottom: 22px;
-        border-bottom: 1.5px solid #f1f5f9;
+        border-bottom: 1.5px solid #f1f5f2;
     }
 
     .bms-card-title {
         font-size: 18px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0;
         display: flex;
         align-items: center;
@@ -159,13 +159,13 @@
     }
 
     .bms-card-title i {
-        color: #335aff;
+        color: #0b7a3d;
         font-size: 16px;
     }
 
     /* Orders Styles */
     .bms-order-box {
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 14px;
         margin-bottom: 18px;
         overflow: hidden;
@@ -174,13 +174,13 @@
     }
 
     .bms-order-box:hover {
-        border-color: #cbd5e1;
-        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+        border-color: #cdd7d1;
+        box-shadow: 0 8px 24px rgba(6, 36, 23, 0.06);
     }
 
     .bms-order-top {
-        background: #f8fafc;
-        border-bottom: 1px solid #e2e8f0;
+        background: #f7faf8;
+        border-bottom: 1px solid #e2e9e4;
         padding: 14px 20px;
         display: flex;
         align-items: center;
@@ -198,11 +198,11 @@
     }
 
     .bms-order-meta strong {
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-order-meta span {
-        color: #64748b;
+        color: #65736c;
     }
 
     .bms-status-badge {
@@ -220,9 +220,9 @@
     }
 
     .bms-status-processing {
-        background: #e0f2fe;
-        color: #0369a1;
-        border: 1px solid #bae6fd;
+        background: #e6f4ec;
+        color: #035c2d;
+        border: 1px solid #bfe3cb;
     }
 
     .bms-status-completed {
@@ -246,7 +246,7 @@
         align-items: center;
         gap: 14px;
         padding: 10px 0;
-        border-bottom: 1px solid #f1f5f9;
+        border-bottom: 1px solid #f1f5f2;
     }
 
     .bms-order-item-row:last-child {
@@ -257,9 +257,9 @@
         width: 54px;
         height: 54px;
         border-radius: 10px;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         object-fit: cover;
-        background: #f8fafc;
+        background: #f7faf8;
         flex-shrink: 0;
     }
 
@@ -271,7 +271,7 @@
     .bms-order-item-title {
         font-size: 14px;
         font-weight: 700;
-        color: #0f172a;
+        color: #062417;
         text-decoration: none !important;
         display: block;
         white-space: nowrap;
@@ -280,18 +280,18 @@
     }
 
     .bms-order-item-title:hover {
-        color: #335aff;
+        color: #0b7a3d;
     }
 
     .bms-order-item-sub {
         font-size: 12px;
-        color: #64748b;
+        color: #65736c;
         margin-top: 2px;
     }
 
     .bms-order-footer {
-        background: #f8fafc;
-        border-top: 1px solid #e2e8f0;
+        background: #f7faf8;
+        border-top: 1px solid #e2e9e4;
         padding: 12px 20px;
         display: flex;
         align-items: center;
@@ -304,7 +304,7 @@
     /* Wishlist Product Cards */
     .bms-wishlist-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         overflow: hidden;
         transition: all 0.28s ease;
@@ -316,14 +316,14 @@
 
     .bms-wishlist-card:hover {
         transform: translateY(-5px);
-        border-color: #cbd5e1;
-        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+        border-color: #cdd7d1;
+        box-shadow: 0 14px 30px rgba(6, 36, 23, 0.08);
     }
 
     .bms-wishlist-thumb {
         position: relative;
         height: 200px;
-        background: #f8fafc;
+        background: #f7faf8;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -349,8 +349,8 @@
         height: 34px;
         border-radius: 50%;
         background: #ffffff;
-        border: 1px solid #e2e8f0;
-        color: #ef4444;
+        border: 1px solid #e2e9e4;
+        color: #d81e23;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -362,9 +362,9 @@
     }
 
     .bms-wishlist-remove-btn:hover {
-        background: #ef4444;
+        background: #d81e23;
         color: #ffffff;
-        border-color: #ef4444;
+        border-color: #d81e23;
         transform: scale(1.1);
     }
 
@@ -379,7 +379,7 @@
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
-        color: #335aff;
+        color: #0b7a3d;
         letter-spacing: 0.5px;
         margin-bottom: 4px;
     }
@@ -387,7 +387,7 @@
     .bms-wishlist-title {
         font-size: 14.5px;
         font-weight: 700;
-        color: #0f172a;
+        color: #062417;
         text-decoration: none !important;
         margin-bottom: 8px;
         display: -webkit-box;
@@ -398,7 +398,7 @@
     }
 
     .bms-wishlist-title:hover {
-        color: #335aff;
+        color: #0b7a3d;
     }
 
     .bms-wishlist-price-row {
@@ -412,12 +412,12 @@
     .bms-wishlist-price {
         font-size: 17px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-wishlist-old {
         font-size: 12.5px;
-        color: #94a3b8;
+        color: #97a39c;
         text-decoration: line-through;
         margin-left: 6px;
     }
@@ -426,9 +426,9 @@
         width: 100%;
         padding: 9px 14px;
         border-radius: 10px;
-        border: 1.5px solid #335aff;
-        background: rgba(51, 90, 255, 0.06);
-        color: #335aff;
+        border: 1.5px solid #0b7a3d;
+        background: rgba(11, 122, 61, 0.06);
+        color: #0b7a3d;
         font-size: 13px;
         font-weight: 700;
         display: inline-flex;
@@ -440,9 +440,9 @@
     }
 
     .bms-wishlist-cart-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
-        box-shadow: 0 6px 16px rgba(51, 90, 255, 0.25);
+        box-shadow: 0 6px 16px rgba(11, 122, 61, 0.25);
     }
 
     /* Empty States */
@@ -464,12 +464,12 @@
 
     .bms-empty-box-icon.heart {
         background: #fef2f2;
-        color: #ef4444;
+        color: #d81e23;
     }
 
     .bms-empty-box-icon.bag {
-        background: rgba(51, 90, 255, 0.08);
-        color: #335aff;
+        background: rgba(11, 122, 61, 0.08);
+        color: #0b7a3d;
     }
 
     /* Tab content toggle */
@@ -563,7 +563,7 @@
                             <div class="bms-stat-val">{{ $totalOrdersCount }}</div>
                             <p class="bms-stat-label">Total Orders Placed</p>
                         </div>
-                        <div class="bms-stat-icon" style="background: rgba(51, 90, 255, 0.1); color: #335aff;">
+                        <div class="bms-stat-icon" style="background: rgba(11, 122, 61, 0.1); color: #0b7a3d;">
                             <i class="fas fa-box-open"></i>
                         </div>
                     </div>
@@ -582,10 +582,10 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="bms-stat-card">
                         <div>
-                            <div class="bms-stat-val" style="color: #10b981;">{{ $completedOrdersCount }}</div>
+                            <div class="bms-stat-val" style="color: #16a330;">{{ $completedOrdersCount }}</div>
                             <p class="bms-stat-label">Delivered Orders</p>
                         </div>
-                        <div class="bms-stat-icon" style="background: #dcfce7; color: #10b981;">
+                        <div class="bms-stat-icon" style="background: #dcfce7; color: #16a330;">
                             <i class="fas fa-check-circle"></i>
                         </div>
                     </div>
@@ -593,10 +593,10 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="bms-stat-card">
                         <div>
-                            <div class="bms-stat-val" style="color: #ef4444;" id="bmsStatWishlistCount">{{ $wishlistCount }}</div>
+                            <div class="bms-stat-val" style="color: #d81e23;" id="bmsStatWishlistCount">{{ $wishlistCount }}</div>
                             <p class="bms-stat-label">Wishlist Products</p>
                         </div>
-                        <div class="bms-stat-icon" style="background: #fef2f2; color: #ef4444;">
+                        <div class="bms-stat-icon" style="background: #fef2f2; color: #d81e23;">
                             <i class="fas fa-heart"></i>
                         </div>
                     </div>
@@ -647,7 +647,7 @@
                                             </div>
                                         </div>
                                         <div class="text-right">
-                                            <strong style="color: #0f172a; font-size: 14px;">BDT {{ number_format((float)$item->total, 2) }}</strong>
+                                            <strong style="color: #062417; font-size: 14px;">BDT {{ number_format((float)$item->total, 2) }}</strong>
                                         </div>
                                     </div>
                                 @empty
@@ -661,7 +661,7 @@
                                 </div>
                                 <div>
                                     <span class="text-muted">Total Payable:</span>
-                                    <strong style="color: #335aff; font-size: 16px;">BDT {{ number_format((float)$ord->total, 2) }}</strong>
+                                    <strong style="color: #0b7a3d; font-size: 16px;">BDT {{ number_format((float)$ord->total, 2) }}</strong>
                                 </div>
                             </div>
                         </div>
@@ -671,7 +671,7 @@
                         <div class="bms-empty-box-icon bag">
                             <i class="fas fa-shopping-bag"></i>
                         </div>
-                        <h5 style="font-weight: 800; color: #0f172a;">No Orders Yet</h5>
+                        <h5 style="font-weight: 800; color: #062417;">No Orders Yet</h5>
                         <p class="text-muted mb-3">You haven't placed any orders yet. Discover our top deals and start shopping!</p>
                         <a href="{{ url('products') }}" class="btn btn-primary" style="border-radius: 10px; font-weight: 700; padding: 10px 24px;">
                             Browse Products
@@ -769,7 +769,7 @@
                                             </div>
                                         </div>
                                         <div class="text-right">
-                                            <strong style="color: #0f172a; font-size: 15px;">BDT {{ number_format((float)$item->total, 2) }}</strong>
+                                            <strong style="color: #062417; font-size: 15px;">BDT {{ number_format((float)$item->total, 2) }}</strong>
                                         </div>
                                     </div>
                                 @empty
@@ -789,7 +789,7 @@
                                     </div>
                                     <div>
                                         <span class="text-muted">Total Paid / Payable:</span>
-                                        <strong style="color: #335aff; font-size: 16px;">BDT {{ number_format((float)$ord->total, 2) }}</strong>
+                                        <strong style="color: #0b7a3d; font-size: 16px;">BDT {{ number_format((float)$ord->total, 2) }}</strong>
                                     </div>
                                 </div>
                             </div>
@@ -800,7 +800,7 @@
                         <div class="bms-empty-box-icon bag">
                             <i class="fas fa-shopping-bag"></i>
                         </div>
-                        <h5 style="font-weight: 800; color: #0f172a;">No Orders Found</h5>
+                        <h5 style="font-weight: 800; color: #062417;">No Orders Found</h5>
                         <p class="text-muted mb-3">You have not placed any orders yet. Visit our shop catalog to find exciting offers!</p>
                         <a href="{{ url('products') }}" class="btn btn-primary" style="border-radius: 10px; font-weight: 700; padding: 10px 24px;">
                             Start Shopping Now
@@ -868,7 +868,7 @@
                                 <div class="bms-empty-box-icon heart">
                                     <i class="fas fa-heart"></i>
                                 </div>
-                                <h5 style="font-weight: 800; color: #0f172a;">Your Wishlist is Empty</h5>
+                                <h5 style="font-weight: 800; color: #062417;">Your Wishlist is Empty</h5>
                                 <p class="text-muted mb-4">Click the heart icon on any product to save it to your wishlist and revisit it anytime!</p>
                                 <a href="{{ url('products') }}" class="btn btn-primary" style="border-radius: 10px; font-weight: 700; padding: 10px 24px;">
                                     <i class="fas fa-search mr-1"></i> Explore Products
@@ -891,27 +891,27 @@
                         <form method="POST" action="{{ url('customer-profile-update') }}">
                             @csrf
                             <div class="form-group mb-3">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">Full Name *</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">Full Name *</label>
                                 <input type="text" name="name" class="form-control" style="border-radius: 10px; height: 44px;"
                                        value="{{ old('name', $customer->name) }}" required>
                             </div>
                             <div class="form-group mb-3">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">Email Address *</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">Email Address *</label>
                                 <input type="email" name="email" class="form-control" style="border-radius: 10px; height: 44px;"
                                        value="{{ old('email', $customer->email) }}" required>
                             </div>
                             <div class="form-group mb-3">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">Phone Number</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">Phone Number</label>
                                 <input type="text" name="phone" class="form-control" style="border-radius: 10px; height: 44px;"
                                        value="{{ old('phone', $customer->phone) }}" placeholder="+8801...">
                             </div>
                             <div class="form-group mb-3">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">City</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">City</label>
                                 <input type="text" name="city" class="form-control" style="border-radius: 10px; height: 44px;"
                                        value="{{ old('city', $customer->city) }}" placeholder="e.g. Dhaka">
                             </div>
                             <div class="form-group mb-4">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">Delivery Address</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">Delivery Address</label>
                                 <textarea name="address" class="form-control" rows="3" style="border-radius: 10px;"
                                           placeholder="House / Road / Area details">{{ old('address', $customer->address) }}</textarea>
                             </div>
@@ -935,15 +935,15 @@
                         <form method="POST" action="{{ url('customer-change-password') }}">
                             @csrf
                             <div class="form-group mb-3">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">Current Password *</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">Current Password *</label>
                                 <input type="password" name="current_password" class="form-control" style="border-radius: 10px; height: 44px;" required>
                             </div>
                             <div class="form-group mb-3">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">New Password *</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">New Password *</label>
                                 <input type="password" name="password" class="form-control" style="border-radius: 10px; height: 44px;" required>
                             </div>
                             <div class="form-group mb-4">
-                                <label style="font-weight: 700; color: #334155; font-size: 13.5px;">Confirm New Password *</label>
+                                <label style="font-weight: 700; color: #2f3d36; font-size: 13.5px;">Confirm New Password *</label>
                                 <input type="password" name="password_confirmation" class="form-control" style="border-radius: 10px; height: 44px;" required>
                             </div>
                             <button type="submit" class="btn btn-primary" style="border-radius: 10px; font-weight: 700; padding: 10px 28px;">
@@ -1012,7 +1012,7 @@
                                     <div class="bms-empty-box-icon heart">
                                         <i class="fas fa-heart"></i>
                                     </div>
-                                    <h5 style="font-weight: 800; color: #0f172a;">Your Wishlist is Empty</h5>
+                                    <h5 style="font-weight: 800; color: #062417;">Your Wishlist is Empty</h5>
                                     <p class="text-muted mb-4">Click the heart icon on any product to save it to your wishlist and revisit it anytime!</p>
                                     <a href="{{ url('products') }}" class="btn btn-primary" style="border-radius: 10px; font-weight: 700; padding: 10px 24px;">
                                         <i class="fas fa-search mr-1"></i> Explore Products

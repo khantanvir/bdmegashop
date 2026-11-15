@@ -30,7 +30,7 @@
        1. TOP HERO BREADCRUMB BANNER (Matches /products page)
        ============================================================ */
     .bms-catalog-hero {
-        background: linear-gradient(135deg, #070d1f 0%, #0f172a 55%, #1e1b4b 100%);
+        background: linear-gradient(135deg, #03150d 0%, #062417 55%, #04391d 100%);
         padding: 38px 0 34px;
         position: relative;
         overflow: hidden;
@@ -46,22 +46,22 @@
         padding: 0;
         margin: 0 0 10px 0;
         font-size: 13px;
-        color: #94a3b8;
+        color: #97a39c;
     }
 
     .bms-catalog-breadcrumb li a {
-        color: #cbd5e1;
+        color: #cdd7d1;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.2s ease;
     }
 
     .bms-catalog-breadcrumb li a:hover {
-        color: #60a5fa;
+        color: #5fd47a;
     }
 
     .bms-catalog-breadcrumb li.active {
-        color: #60a5fa;
+        color: #5fd47a;
         font-weight: 700;
     }
 
@@ -75,7 +75,7 @@
 
     .bms-catalog-hero-sub {
         font-size: 13.5px;
-        color: #94a3b8;
+        color: #97a39c;
         margin: 0;
     }
 
@@ -88,7 +88,7 @@
         backdrop-filter: blur(8px);
         padding: 9px 18px;
         border-radius: 50px;
-        color: #f8fafc;
+        color: #f7faf8;
         font-size: 13px;
         font-weight: 600;
     }
@@ -98,15 +98,15 @@
        ============================================================ */
     .bms-detail-section {
         padding: 40px 0 65px;
-        background: #f8fafc;
+        background: #f7faf8;
     }
 
     .bms-detail-main-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 22px;
         padding: 32px;
-        box-shadow: 0 8px 30px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 8px 30px rgba(6, 36, 23, 0.04);
         margin-bottom: 32px;
     }
 
@@ -119,8 +119,8 @@
     .bms-main-img-stage {
         position: relative;
         height: 430px;
-        background: #f8fafc;
-        border: 1.5px solid #e2e8f0;
+        background: #f7faf8;
+        border: 1.5px solid #e2e9e4;
         border-radius: 18px;
         overflow: hidden;
         display: flex;
@@ -152,13 +152,13 @@
     }
 
     .bms-badge-discount {
-        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        background: linear-gradient(135deg, #d81e23 0%, #b5101a 100%);
         color: #ffffff;
         font-size: 12px;
         font-weight: 800;
         padding: 5px 12px;
         border-radius: 50px;
-        box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        box-shadow: 0 4px 12px rgba(216, 30, 35, 0.3);
     }
 
     .bms-thumb-strip {
@@ -173,8 +173,8 @@
         width: 76px;
         height: 76px;
         border-radius: 12px;
-        border: 2px solid #e2e8f0;
-        background: #f8fafc;
+        border: 2px solid #e2e9e4;
+        background: #f7faf8;
         overflow: hidden;
         cursor: pointer;
         flex-shrink: 0;
@@ -191,9 +191,9 @@
 
     .bms-thumb-item:hover,
     .bms-thumb-item.active {
-        border-color: #335aff;
+        border-color: #0b7a3d;
         background: #ffffff;
-        box-shadow: 0 4px 12px rgba(51, 90, 255, 0.18);
+        box-shadow: 0 4px 12px rgba(11, 122, 61, 0.18);
         transform: translateY(-2px);
     }
 
@@ -221,34 +221,34 @@
     }
 
     .bms-meta-pill.cat {
-        background: rgba(51, 90, 255, 0.10);
-        color: #335aff;
+        background: rgba(11, 122, 61, 0.10);
+        color: #0b7a3d;
     }
 
     .bms-meta-pill.cat:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
     }
 
     .bms-meta-pill.subcat {
-        background: #f1f5f9;
-        color: #475569;
+        background: #f1f5f2;
+        color: #48564f;
     }
 
     .bms-meta-pill.subcat:hover {
-        background: #e2e8f0;
-        color: #0f172a;
+        background: #e2e9e4;
+        color: #062417;
     }
 
     .bms-meta-pill.brand {
-        background: rgba(139, 92, 246, 0.10);
-        color: #7c3aed;
+        background: rgba(14, 107, 79, 0.10);
+        color: #0a5640;
     }
 
     .bms-detail-title {
         font-size: 28px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         line-height: 1.3;
         margin: 0 0 12px 0;
     }
@@ -260,7 +260,7 @@
         gap: 14px;
         padding-bottom: 16px;
         margin-bottom: 18px;
-        border-bottom: 1px solid #f1f5f9;
+        border-bottom: 1px solid #f1f5f2;
     }
 
     .bms-stars-box {
@@ -272,7 +272,7 @@
     }
 
     .bms-stars-box span {
-        color: #475569;
+        color: #48564f;
         font-weight: 700;
         margin-left: 4px;
     }
@@ -280,9 +280,9 @@
     .bms-sku-tag {
         font-size: 12.5px;
         font-weight: 600;
-        color: #64748b;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        color: #65736c;
+        background: #f7faf8;
+        border: 1px solid #e2e9e4;
         padding: 4px 11px;
         border-radius: 6px;
     }
@@ -311,8 +311,8 @@
 
     /* Price Box */
     .bms-detail-price-box {
-        background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
-        border: 1.5px solid #dbeafe;
+        background: linear-gradient(135deg, #f7faf8 0%, #edf7f1 100%);
+        border: 1.5px solid #d3ecdc;
         border-radius: 16px;
         padding: 18px 22px;
         display: flex;
@@ -326,30 +326,30 @@
     .bms-detail-sell-price {
         font-size: 30px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         line-height: 1;
     }
 
     .bms-detail-reg-price {
         font-size: 16px;
         font-weight: 600;
-        color: #94a3b8;
+        color: #97a39c;
         text-decoration: line-through;
         margin-left: 10px;
     }
 
     .bms-detail-save-pill {
-        background: #10b981;
+        background: #16a330;
         color: #ffffff;
         font-size: 12px;
         font-weight: 800;
         padding: 6px 14px;
         border-radius: 50px;
-        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.25);
+        box-shadow: 0 4px 12px rgba(22, 163, 48, 0.25);
     }
 
     .bms-short-desc {
-        color: #475569;
+        color: #48564f;
         font-size: 14.5px;
         line-height: 1.7;
         margin-bottom: 22px;
@@ -362,8 +362,8 @@
         gap: 18px;
         margin-bottom: 22px;
         padding: 16px 18px;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        background: #f7faf8;
+        border: 1px solid #e2e9e4;
         border-radius: 14px;
     }
 
@@ -383,7 +383,7 @@
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 0.7px;
-        color: #475569;
+        color: #48564f;
         margin: 0;
         display: inline-flex;
         align-items: center;
@@ -393,8 +393,8 @@
     .bms-selector-active-val {
         font-size: 12.5px;
         font-weight: 800;
-        color: #335aff;
-        background: rgba(51, 90, 255, 0.10);
+        color: #0b7a3d;
+        background: rgba(11, 122, 61, 0.10);
         padding: 2px 10px;
         border-radius: 50px;
         text-transform: capitalize;
@@ -412,11 +412,11 @@
         min-width: 48px;
         height: 40px;
         padding: 0 16px;
-        border: 1.5px solid #cbd5e1;
+        border: 1.5px solid #cdd7d1;
         border-radius: 10px;
         font-size: 13.5px;
         font-weight: 700;
-        color: #1e293b;
+        color: #17261e;
         background: #ffffff;
         transition: all 0.2s ease;
         cursor: pointer;
@@ -427,16 +427,16 @@
     }
 
     .bms-size-option-btn:hover {
-        border-color: #335aff;
-        color: #335aff;
+        border-color: #0b7a3d;
+        color: #0b7a3d;
         transform: translateY(-1px);
     }
 
     .bms-size-option-btn.active {
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%) !important;
-        border-color: #335aff !important;
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%) !important;
+        border-color: #0b7a3d !important;
         color: #ffffff !important;
-        box-shadow: 0 6px 14px rgba(51, 90, 255, 0.25);
+        box-shadow: 0 6px 14px rgba(11, 122, 61, 0.25);
     }
 
     .bms-color-option-btn {
@@ -446,29 +446,29 @@
         display: inline-flex !important;
         align-items: center !important;
         gap: 9px !important;
-        border: 1.5px solid #cbd5e1 !important;
+        border: 1.5px solid #cdd7d1 !important;
         border-radius: 50px !important;
         background-color: #ffffff !important;
-        color: #1e293b !important;
+        color: #17261e !important;
         font-size: 13.5px !important;
         font-weight: 700 !important;
         cursor: pointer;
         transition: all 0.22s ease;
         user-select: none;
-        box-shadow: 0 2px 6px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 2px 6px rgba(6, 36, 23, 0.03);
     }
 
     .bms-color-option-btn:hover {
-        border-color: #335aff !important;
+        border-color: #0b7a3d !important;
         transform: translateY(-2px);
-        box-shadow: 0 6px 14px rgba(51, 90, 255, 0.12);
+        box-shadow: 0 6px 14px rgba(11, 122, 61, 0.12);
     }
 
     .bms-color-option-btn.active {
-        border: 2px solid #335aff !important;
-        background-color: #eff6ff !important;
-        color: #335aff !important;
-        box-shadow: 0 6px 16px rgba(51, 90, 255, 0.18);
+        border: 2px solid #0b7a3d !important;
+        background-color: #edf7f1 !important;
+        color: #0b7a3d !important;
+        box-shadow: 0 6px 16px rgba(11, 122, 61, 0.18);
     }
 
     .bms-color-dot {
@@ -476,7 +476,7 @@
         height: 22px;
         min-width: 22px;
         border-radius: 50%;
-        border: 2px solid rgba(15, 23, 42, 0.15);
+        border: 2px solid rgba(6, 36, 23, 0.15);
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -486,7 +486,7 @@
     }
 
     .bms-color-option-btn.active .bms-color-dot {
-        border-color: #335aff;
+        border-color: #0b7a3d;
         transform: scale(1.06);
     }
 
@@ -498,7 +498,7 @@
 
     .bms-color-check {
         font-size: 11px;
-        color: #335aff;
+        color: #0b7a3d;
         display: none;
         margin-left: 2px;
     }
@@ -515,14 +515,14 @@
         gap: 12px;
         margin-top: 22px;
         padding-bottom: 24px;
-        border-bottom: 1px solid #f1f5f9;
+        border-bottom: 1px solid #f1f5f2;
     }
 
     .bms-qty-stepper {
         display: inline-flex;
         align-items: center;
-        background: #f8fafc;
-        border: 1.5px solid #cbd5e1;
+        background: #f7faf8;
+        border: 1.5px solid #cdd7d1;
         border-radius: 12px;
         height: 50px;
         padding: 0 6px;
@@ -534,7 +534,7 @@
         border-radius: 8px;
         border: 0;
         background: transparent;
-        color: #0f172a;
+        color: #062417;
         font-size: 14px;
         font-weight: 700;
         display: inline-flex;
@@ -546,8 +546,8 @@
     }
 
     .bms-qty-btn:hover {
-        background: #e2e8f0;
-        color: #335aff;
+        background: #e2e9e4;
+        color: #0b7a3d;
     }
 
     .bms-qty-stepper input {
@@ -557,7 +557,7 @@
         text-align: center;
         font-size: 16px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         outline: none;
     }
 
@@ -566,7 +566,7 @@
         padding: 0 28px;
         border-radius: 12px;
         border: 0;
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%);
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%);
         color: #ffffff !important;
         font-size: 15px;
         font-weight: 700;
@@ -575,7 +575,7 @@
         justify-content: center;
         gap: 10px;
         cursor: pointer;
-        box-shadow: 0 10px 24px rgba(51, 90, 255, 0.28);
+        box-shadow: 0 10px 24px rgba(11, 122, 61, 0.28);
         transition: all 0.25s ease;
         flex: 1;
         min-width: 190px;
@@ -583,15 +583,15 @@
 
     .bms-btn-add-cart:hover {
         transform: translateY(-2px);
-        box-shadow: 0 14px 30px rgba(51, 90, 255, 0.38);
+        box-shadow: 0 14px 30px rgba(11, 122, 61, 0.38);
     }
 
     .bms-btn-buy-now {
         height: 50px;
         padding: 0 24px;
         border-radius: 12px;
-        border: 1.5px solid #0f172a;
-        background: #0f172a;
+        border: 1.5px solid #062417;
+        background: #062417;
         color: #ffffff !important;
         font-size: 14.5px;
         font-weight: 700;
@@ -605,13 +605,13 @@
     }
 
     .bms-btn-buy-now:hover {
-        background: #1e293b;
+        background: #17261e;
         transform: translateY(-2px);
     }
 
     .btn-out-of-stock,
     .bms-btn-add-cart:disabled {
-        background: #94a3b8 !important;
+        background: #97a39c !important;
         color: #ffffff !important;
         cursor: not-allowed !important;
         box-shadow: none !important;
@@ -622,9 +622,9 @@
         width: 50px;
         height: 50px;
         border-radius: 12px;
-        border: 1.5px solid #e2e8f0;
+        border: 1.5px solid #e2e9e4;
         background: #ffffff;
-        color: #475569;
+        color: #48564f;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -635,8 +635,8 @@
     }
 
     .bms-btn-wishlist:hover {
-        border-color: #ef4444;
-        color: #ef4444;
+        border-color: #d81e23;
+        color: #d81e23;
         background: #fef2f2;
     }
 
@@ -652,8 +652,8 @@
         display: flex;
         align-items: center;
         gap: 11px;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        background: #f7faf8;
+        border: 1px solid #e2e9e4;
         border-radius: 12px;
         padding: 11px 14px;
     }
@@ -662,8 +662,8 @@
         width: 36px;
         height: 36px;
         border-radius: 10px;
-        background: rgba(51, 90, 255, 0.10);
-        color: #335aff;
+        background: rgba(11, 122, 61, 0.10);
+        color: #0b7a3d;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -675,13 +675,13 @@
         display: block;
         font-size: 12.5px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         line-height: 1.2;
     }
 
     .bms-trust-pill-text span {
         font-size: 11.5px;
-        color: #64748b;
+        color: #65736c;
     }
 
     /* ============================================================
@@ -689,10 +689,10 @@
        ============================================================ */
     .bms-content-panel {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 20px;
         padding: 28px 30px;
-        box-shadow: 0 6px 24px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 6px 24px rgba(6, 36, 23, 0.03);
         height: 100%;
     }
 
@@ -702,7 +702,7 @@
         justify-content: space-between;
         padding-bottom: 14px;
         margin-bottom: 20px;
-        border-bottom: 2px solid #f1f5f9;
+        border-bottom: 2px solid #f1f5f2;
         position: relative;
     }
 
@@ -713,14 +713,14 @@
         bottom: -2px;
         width: 64px;
         height: 3px;
-        background: #335aff;
+        background: #0b7a3d;
         border-radius: 3px;
     }
 
     .bms-panel-title {
         font-size: 20px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0;
         display: flex;
         align-items: center;
@@ -728,12 +728,12 @@
     }
 
     .bms-panel-title i {
-        color: #335aff;
+        color: #0b7a3d;
         font-size: 18px;
     }
 
     .bms-desc-body {
-        color: #334155;
+        color: #2f3d36;
         font-size: 15px;
         line-height: 1.85;
     }
@@ -744,25 +744,25 @@
         margin-top: 24px;
         border-radius: 12px;
         overflow: hidden;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
     }
 
     .bms-spec-table th,
     .bms-spec-table td {
         padding: 11px 16px;
         font-size: 13.5px;
-        border-bottom: 1px solid #f1f5f9;
+        border-bottom: 1px solid #f1f5f2;
     }
 
     .bms-spec-table th {
         width: 34%;
-        background: #f8fafc;
-        color: #475569;
+        background: #f7faf8;
+        color: #48564f;
         font-weight: 700;
     }
 
     .bms-spec-table td {
-        color: #0f172a;
+        color: #062417;
         font-weight: 600;
     }
 
@@ -779,17 +779,17 @@
         gap: 14px;
         padding: 11px;
         border-radius: 14px;
-        border: 1px solid #f1f5f9;
-        background: #f8fafc;
+        border: 1px solid #f1f5f2;
+        background: #f7faf8;
         transition: all 0.25s ease;
         text-decoration: none !important;
     }
 
     .bms-more-item:hover {
         background: #ffffff;
-        border-color: #cbd5e1;
+        border-color: #cdd7d1;
         transform: translateX(4px);
-        box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+        box-shadow: 0 8px 20px rgba(6, 36, 23, 0.06);
     }
 
     .bms-more-thumb {
@@ -799,7 +799,7 @@
         border-radius: 11px;
         overflow: hidden;
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         flex-shrink: 0;
     }
 
@@ -824,7 +824,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.5px;
-        color: #335aff;
+        color: #0b7a3d;
         display: block;
         margin-bottom: 2px;
     }
@@ -832,7 +832,7 @@
     .bms-more-title {
         font-size: 14px;
         font-weight: 700;
-        color: #0f172a;
+        color: #062417;
         display: block;
         white-space: nowrap;
         overflow: hidden;
@@ -842,18 +842,18 @@
     }
 
     .bms-more-title:hover {
-        color: #335aff;
+        color: #0b7a3d;
     }
 
     .bms-more-price {
         font-size: 14px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-more-old {
         font-size: 11.5px;
-        color: #94a3b8;
+        color: #97a39c;
         text-decoration: line-through;
         margin-left: 5px;
     }
@@ -862,9 +862,9 @@
         width: 36px;
         height: 36px;
         border-radius: 10px;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         background: #ffffff;
-        color: #335aff;
+        color: #0b7a3d;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -874,9 +874,9 @@
     }
 
     .bms-more-cart-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
-        border-color: #335aff;
+        border-color: #0b7a3d;
     }
 
     /* ============================================================
@@ -885,7 +885,7 @@
     .bms-featured-sec {
         padding: 65px 0 80px;
         background: #ffffff;
-        border-top: 1px solid #e2e8f0;
+        border-top: 1px solid #e2e9e4;
     }
 
     .bms-sec-header {
@@ -903,8 +903,8 @@
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 1.4px;
-        color: #335aff;
-        background: rgba(51, 90, 255, 0.08);
+        color: #0b7a3d;
+        background: rgba(11, 122, 61, 0.08);
         padding: 4px 12px;
         border-radius: 20px;
         margin-bottom: 8px;
@@ -913,7 +913,7 @@
     .bms-sec-title {
         font-size: 30px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0;
     }
 
@@ -923,8 +923,8 @@
         gap: 8px;
         font-size: 14px;
         font-weight: 700;
-        color: #335aff !important;
-        background: rgba(51, 90, 255, 0.08);
+        color: #0b7a3d !important;
+        background: rgba(11, 122, 61, 0.08);
         padding: 10px 20px;
         border-radius: 50px;
         text-decoration: none !important;
@@ -932,13 +932,13 @@
     }
 
     .bms-sec-link:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff !important;
     }
 
     .bms-pcard {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         overflow: hidden;
         transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -946,19 +946,19 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 14px rgba(6, 36, 23, 0.03);
     }
 
     .bms-pcard:hover {
         transform: translateY(-7px);
-        border-color: #cbd5e1;
-        box-shadow: 0 18px 36px rgba(15, 23, 42, 0.10);
+        border-color: #cdd7d1;
+        box-shadow: 0 18px 36px rgba(6, 36, 23, 0.10);
     }
 
     .bms-pcard-thumb {
         position: relative;
         height: 245px;
-        background: #f8fafc;
+        background: #f7faf8;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -993,13 +993,13 @@
     }
 
     .bms-pbadge-sale {
-        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        background: linear-gradient(135deg, #d81e23 0%, #b5101a 100%);
         color: #ffffff;
         font-size: 11px;
         font-weight: 800;
         padding: 4px 10px;
         border-radius: 50px;
-        box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+        box-shadow: 0 4px 10px rgba(216, 30, 35, 0.3);
     }
 
     .bms-pcard-actions {
@@ -1025,20 +1025,20 @@
         height: 38px;
         border-radius: 50%;
         background: #ffffff;
-        color: #1e293b !important;
-        border: 1px solid #e2e8f0;
+        color: #17261e !important;
+        border: 1px solid #e2e9e4;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+        box-shadow: 0 4px 12px rgba(6, 36, 23, 0.12);
         transition: all 0.2s ease;
         text-decoration: none !important;
     }
 
     .bms-pcard-act-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff !important;
-        border-color: #335aff;
+        border-color: #0b7a3d;
     }
 
     .bms-pcard-body {
@@ -1053,14 +1053,14 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.6px;
-        color: #335aff;
+        color: #0b7a3d;
         margin-bottom: 5px;
     }
 
     .bms-pcard-title {
         font-size: 15px;
         font-weight: 700;
-        color: #0f172a;
+        color: #062417;
         line-height: 1.4;
         margin-bottom: 10px;
         display: -webkit-box;
@@ -1072,7 +1072,7 @@
     }
 
     .bms-pcard-title:hover {
-        color: #335aff;
+        color: #0b7a3d;
     }
 
     .bms-pcard-price-row {
@@ -1087,13 +1087,13 @@
     .bms-pcard-price {
         font-size: 18px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-pcard-old-price {
         font-size: 12.5px;
         font-weight: 600;
-        color: #94a3b8;
+        color: #97a39c;
         text-decoration: line-through;
         margin-left: 5px;
     }
@@ -1102,9 +1102,9 @@
         width: 100%;
         padding: 10px 14px;
         border-radius: 10px;
-        border: 1.5px solid #335aff;
-        background: rgba(51, 90, 255, 0.06);
-        color: #335aff;
+        border: 1.5px solid #0b7a3d;
+        background: rgba(11, 122, 61, 0.06);
+        color: #0b7a3d;
         font-size: 13px;
         font-weight: 700;
         display: inline-flex;
@@ -1116,9 +1116,9 @@
     }
 
     .bms-pcard-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
-        box-shadow: 0 8px 18px rgba(51, 90, 255, 0.25);
+        box-shadow: 0 8px 18px rgba(11, 122, 61, 0.25);
     }
 
     @media (max-width: 767px) {
@@ -1424,7 +1424,7 @@
                         </div>
 
                         <div class="bms-trust-pill">
-                            <span class="bms-trust-pill-icon" style="color: #10b981; background: rgba(16, 185, 129, 0.1);"><i class="fas fa-hand-holding-usd"></i></span>
+                            <span class="bms-trust-pill-icon" style="color: #16a330; background: rgba(22, 163, 48, 0.1);"><i class="fas fa-hand-holding-usd"></i></span>
                             <div class="bms-trust-pill-text">
                                 <strong>Cash on Delivery</strong>
                                 <span>Pay at your doorstep</span>
@@ -1432,7 +1432,7 @@
                         </div>
 
                         <div class="bms-trust-pill">
-                            <span class="bms-trust-pill-icon" style="color: #8b5cf6; background: rgba(139, 92, 246, 0.1);"><i class="fas fa-shield-alt"></i></span>
+                            <span class="bms-trust-pill-icon" style="color: #0e6b4f; background: rgba(14, 107, 79, 0.1);"><i class="fas fa-shield-alt"></i></span>
                             <div class="bms-trust-pill-text">
                                 <strong>100% Authentic</strong>
                                 <span>Quality Checked</span>
@@ -1517,7 +1517,7 @@
                         <h4 class="bms-panel-title">
                             <i class="fas fa-layer-group"></i> More Products
                         </h4>
-                        <a href="{{ url('products') }}" style="font-size: 12.5px; font-weight: 700; color: #335aff; text-decoration: none;">
+                        <a href="{{ url('products') }}" style="font-size: 12.5px; font-weight: 700; color: #0b7a3d; text-decoration: none;">
                             View All <i class="fas fa-arrow-right ml-1"></i>
                         </a>
                     </div>

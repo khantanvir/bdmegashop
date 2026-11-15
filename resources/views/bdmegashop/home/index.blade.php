@@ -11,7 +11,7 @@
         display: flex;
         align-items: center;
         overflow: hidden;
-        background-color: #0f172a;
+        background-color: #062417;
         padding: 70px 0;
     }
 
@@ -41,9 +41,9 @@
         inset: 0;
         background: linear-gradient(
             95deg,
-            rgba(15, 23, 42, 0.92) 0%,
-            rgba(15, 23, 42, 0.78) 48%,
-            rgba(15, 23, 42, 0.35) 100%
+            rgba(6, 36, 23, 0.92) 0%,
+            rgba(6, 36, 23, 0.78) 48%,
+            rgba(6, 36, 23, 0.35) 100%
         );
         z-index: 2;
     }
@@ -53,7 +53,7 @@
         width: 480px;
         height: 480px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(51, 90, 255, 0.35) 0%, rgba(51, 90, 255, 0) 70%);
+        background: radial-gradient(circle, rgba(11, 122, 61, 0.35) 0%, rgba(11, 122, 61, 0) 70%);
         top: -120px;
         left: -100px;
         z-index: 2;
@@ -100,10 +100,10 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
-        background: rgba(51, 90, 255, 0.25);
-        border: 1px solid rgba(96, 165, 250, 0.45);
+        background: rgba(11, 122, 61, 0.25);
+        border: 1px solid rgba(95, 212, 122, 0.45);
         backdrop-filter: blur(8px);
-        color: #93c5fd;
+        color: #a7e8b6;
         font-size: 13px;
         font-weight: 700;
         padding: 8px 18px;
@@ -123,14 +123,14 @@
     }
 
     .bms-hero-heading span {
-        background: linear-gradient(90deg, #60a5fa 0%, #38bdf8 100%);
+        background: linear-gradient(90deg, #5fd47a 0%, #7ee29a 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
     .bms-hero-subtext {
         font-size: 17px;
-        color: #cbd5e1;
+        color: #cdd7d1;
         line-height: 1.75;
         max-width: 600px;
         margin-bottom: 32px;
@@ -140,20 +140,20 @@
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%);
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%);
         color: #ffffff !important;
         font-size: 15px;
         font-weight: 700;
         padding: 15px 32px;
         border-radius: 50px;
         text-decoration: none !important;
-        box-shadow: 0 10px 25px rgba(51, 90, 255, 0.4);
+        box-shadow: 0 10px 25px rgba(11, 122, 61, 0.4);
         transition: all 0.25s ease;
     }
 
     .bms-hero-btn-primary:hover {
         transform: translateY(-3px);
-        box-shadow: 0 14px 30px rgba(51, 90, 255, 0.55);
+        box-shadow: 0 14px 30px rgba(11, 122, 61, 0.55);
     }
 
     .bms-hero-btn-glass {
@@ -196,7 +196,7 @@
 
     .bms-hero-metric-item span {
         font-size: 13px;
-        color: #94a3b8;
+        color: #97a39c;
     }
 
     /* Floating Glass Promo Card on Right Side of Hero */
@@ -220,7 +220,7 @@
 
     .bms-hero-floating-badge {
         display: inline-block;
-        background: #f97316;
+        background: #d6131b;
         color: #fff;
         font-size: 11px;
         font-weight: 700;
@@ -252,8 +252,8 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 1px;
-        color: #335aff;
-        background: rgba(51, 90, 255, 0.08);
+        color: #0b7a3d;
+        background: rgba(11, 122, 61, 0.08);
         padding: 4px 12px;
         border-radius: 20px;
         margin-bottom: 8px;
@@ -262,7 +262,7 @@
     .bms-sec-title {
         font-size: 32px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0;
     }
 
@@ -272,8 +272,8 @@
         gap: 8px;
         font-size: 14px;
         font-weight: 700;
-        color: #335aff !important;
-        background: rgba(51, 90, 255, 0.08);
+        color: #0b7a3d !important;
+        background: rgba(11, 122, 61, 0.08);
         padding: 10px 20px;
         border-radius: 50px;
         text-decoration: none !important;
@@ -281,7 +281,7 @@
     }
 
     .bms-sec-link:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff !important;
     }
 
@@ -294,14 +294,14 @@
         flex-direction: column;
         justify-content: space-between;
         background: #ffffff;
-        border: 1.5px solid #e2e8f0;
+        border: 1.5px solid #e2e9e4;
         border-radius: 20px;
         padding: 24px 22px 20px;
         height: 100%;
         text-decoration: none !important;
         overflow: hidden;
         transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-        box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 4px 16px rgba(6, 36, 23, 0.04);
         z-index: 1;
     }
 
@@ -312,7 +312,7 @@
         left: 0;
         right: 0;
         height: 4px;
-        background: var(--cat-grad, linear-gradient(90deg, #335aff, #6366f1));
+        background: var(--cat-grad, linear-gradient(90deg, #0b7a3d, #16a330));
         opacity: 0.85;
         transition: height 0.3s ease;
     }
@@ -323,7 +323,7 @@
         width: 130px;
         height: 130px;
         border-radius: 50%;
-        background: var(--cat-soft, rgba(51, 90, 255, 0.06));
+        background: var(--cat-soft, rgba(11, 122, 61, 0.06));
         top: -45px;
         right: -45px;
         transition: transform 0.4s ease;
@@ -333,7 +333,7 @@
     .bms-cat-card:hover {
         border-color: transparent;
         transform: translateY(-7px);
-        box-shadow: 0 20px 38px rgba(15, 23, 42, 0.10);
+        box-shadow: 0 20px 38px rgba(6, 36, 23, 0.10);
     }
 
     .bms-cat-card:hover::before {
@@ -355,13 +355,13 @@
         width: 58px;
         height: 58px;
         border-radius: 16px;
-        background: var(--cat-grad, linear-gradient(135deg, #335aff 0%, #6366f1 100%));
+        background: var(--cat-grad, linear-gradient(135deg, #0b7a3d 0%, #16a330 100%));
         color: #ffffff;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         font-size: 22px;
-        box-shadow: 0 10px 20px var(--cat-shadow, rgba(51, 90, 255, 0.25));
+        box-shadow: 0 10px 20px var(--cat-shadow, rgba(11, 122, 61, 0.25));
         overflow: hidden;
         flex-shrink: 0;
         transition: transform 0.3s ease;
@@ -383,8 +383,8 @@
         gap: 5px;
         font-size: 11px;
         font-weight: 700;
-        color: var(--cat-color, #335aff);
-        background: var(--cat-soft, rgba(51, 90, 255, 0.1));
+        color: var(--cat-color, #0b7a3d);
+        background: var(--cat-soft, rgba(11, 122, 61, 0.1));
         padding: 5px 11px;
         border-radius: 50px;
         letter-spacing: 0.3px;
@@ -393,19 +393,19 @@
     .bms-cat-title {
         font-size: 17px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0 0 6px 0;
         line-height: 1.35;
         transition: color 0.2s ease;
     }
 
     .bms-cat-card:hover .bms-cat-title {
-        color: var(--cat-color, #335aff);
+        color: var(--cat-color, #0b7a3d);
     }
 
     .bms-cat-sub {
         font-size: 12.5px;
-        color: #64748b;
+        color: #65736c;
         margin: 0 0 16px 0;
         line-height: 1.5;
         display: -webkit-box;
@@ -419,10 +419,10 @@
         align-items: center;
         justify-content: space-between;
         padding-top: 13px;
-        border-top: 1px dashed #e2e8f0;
+        border-top: 1px dashed #e2e9e4;
         font-size: 12.5px;
         font-weight: 700;
-        color: #475569;
+        color: #48564f;
         transition: color 0.2s ease;
     }
 
@@ -430,8 +430,8 @@
         width: 28px;
         height: 28px;
         border-radius: 50%;
-        background: #f1f5f9;
-        color: #475569;
+        background: #f1f5f2;
+        color: #48564f;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -440,11 +440,11 @@
     }
 
     .bms-cat-card:hover .bms-cat-footer {
-        color: var(--cat-color, #335aff);
+        color: var(--cat-color, #0b7a3d);
     }
 
     .bms-cat-card:hover .bms-cat-arrow {
-        background: var(--cat-grad, linear-gradient(135deg, #335aff 0%, #6366f1 100%));
+        background: var(--cat-grad, linear-gradient(135deg, #0b7a3d 0%, #16a330 100%));
         color: #ffffff;
         transform: translateX(4px);
     }
@@ -454,7 +454,7 @@
        ============================================================ */
     .bms-review-sec {
         padding: 75px 0 85px;
-        background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+        background: linear-gradient(180deg, #f7faf8 0%, #edf7f1 100%);
         position: relative;
         overflow: hidden;
     }
@@ -465,7 +465,7 @@
         width: 380px;
         height: 380px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(51, 90, 255, 0.08) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(11, 122, 61, 0.08) 0%, transparent 70%);
         top: -120px;
         left: -120px;
         pointer-events: none;
@@ -476,10 +476,10 @@
         align-items: center;
         gap: 10px;
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         padding: 10px 18px;
         border-radius: 50px;
-        box-shadow: 0 4px 15px rgba(15, 23, 42, 0.05);
+        box-shadow: 0 4px 15px rgba(6, 36, 23, 0.05);
     }
 
     .bms-review-rating-pill .stars {
@@ -491,12 +491,12 @@
     .bms-review-rating-pill .score {
         font-size: 13px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-review-card {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 20px;
         padding: 28px 24px;
         height: 100%;
@@ -506,7 +506,7 @@
         position: relative;
         overflow: hidden;
         transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-        box-shadow: 0 6px 20px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 6px 20px rgba(6, 36, 23, 0.04);
     }
 
     .bms-review-card::before {
@@ -516,13 +516,13 @@
         left: 0;
         right: 0;
         height: 4px;
-        background: var(--rev-grad, linear-gradient(90deg, #335aff, #6366f1));
+        background: var(--rev-grad, linear-gradient(90deg, #0b7a3d, #16a330));
     }
 
     .bms-review-card:hover {
         transform: translateY(-7px);
-        box-shadow: 0 20px 40px rgba(15, 23, 42, 0.10);
-        border-color: #cbd5e1;
+        box-shadow: 0 20px 40px rgba(6, 36, 23, 0.10);
+        border-color: #cdd7d1;
     }
 
     .bms-review-quote-icon {
@@ -530,13 +530,13 @@
         top: 18px;
         right: 22px;
         font-size: 38px;
-        color: #f1f5f9;
+        color: #f1f5f2;
         pointer-events: none;
         transition: color 0.3s ease, transform 0.3s ease;
     }
 
     .bms-review-card:hover .bms-review-quote-icon {
-        color: rgba(51, 90, 255, 0.10);
+        color: rgba(11, 122, 61, 0.10);
         transform: scale(1.1) rotate(-6deg);
     }
 
@@ -555,8 +555,8 @@
         gap: 5px;
         font-size: 11px;
         font-weight: 700;
-        color: #10b981;
-        background: rgba(16, 185, 129, 0.1);
+        color: #16a330;
+        background: rgba(22, 163, 48, 0.1);
         padding: 3px 10px;
         border-radius: 50px;
         margin-left: 8px;
@@ -566,9 +566,9 @@
         display: inline-block;
         font-size: 11.5px;
         font-weight: 700;
-        color: #475569;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        color: #48564f;
+        background: #f7faf8;
+        border: 1px solid #e2e9e4;
         padding: 4px 11px;
         border-radius: 8px;
         margin-bottom: 14px;
@@ -577,7 +577,7 @@
     .bms-review-text {
         font-size: 14px;
         line-height: 1.7;
-        color: #334155;
+        color: #2f3d36;
         margin-bottom: 22px;
         position: relative;
         z-index: 1;
@@ -588,7 +588,7 @@
         align-items: center;
         gap: 12px;
         padding-top: 16px;
-        border-top: 1px solid #f1f5f9;
+        border-top: 1px solid #f1f5f2;
     }
 
     .bms-review-author .bms-review-avatar,
@@ -597,7 +597,7 @@
         height: 46px;
         min-width: 46px;
         border-radius: 50%;
-        background: var(--rev-grad, linear-gradient(135deg, #335aff 0%, #6366f1 100%));
+        background: var(--rev-grad, linear-gradient(135deg, #0b7a3d 0%, #16a330 100%));
         color: #ffffff !important;
         display: inline-flex !important;
         align-items: center;
@@ -608,20 +608,20 @@
         font-weight: 800;
         letter-spacing: 0.5px;
         flex-shrink: 0;
-        box-shadow: 0 6px 14px rgba(15, 23, 42, 0.12);
+        box-shadow: 0 6px 14px rgba(6, 36, 23, 0.12);
     }
 
     .bms-review-author h6 {
         font-size: 15px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0 0 2px 0;
     }
 
     .bms-review-author .bms-review-role {
         font-size: 12px;
         font-weight: 600;
-        color: #64748b;
+        color: #65736c;
         display: block;
     }
 
@@ -630,11 +630,11 @@
        ============================================================ */
     .bms-pcard {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         overflow: hidden;
         transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+        box-shadow: 0 4px 14px rgba(6, 36, 23, 0.04);
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -643,15 +643,15 @@
 
     .bms-pcard:hover {
         transform: translateY(-6px);
-        box-shadow: 0 18px 38px rgba(15, 23, 42, 0.12);
-        border-color: #cbd5e1;
+        box-shadow: 0 18px 38px rgba(6, 36, 23, 0.12);
+        border-color: #cdd7d1;
     }
 
     .bms-pcard-thumb {
         position: relative;
         width: 100%;
         height: 265px;
-        background: #f8fafc;
+        background: #f7faf8;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -688,17 +688,17 @@
     }
 
     .bms-badge-discount {
-        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        background: linear-gradient(135deg, #d81e23 0%, #b5101a 100%);
         color: #ffffff;
         font-size: 11px;
         font-weight: 700;
         padding: 4px 10px;
         border-radius: 20px;
-        box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+        box-shadow: 0 4px 10px rgba(216, 30, 35, 0.3);
     }
 
     .bms-badge-tag {
-        background: rgba(15, 23, 42, 0.8);
+        background: rgba(6, 36, 23, 0.8);
         backdrop-filter: blur(4px);
         color: #ffffff;
         font-size: 11px;
@@ -708,7 +708,7 @@
     }
 
     .bms-badge-tag.popular {
-        background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+        background: linear-gradient(135deg, #d6131b 0%, #a80d14 100%);
     }
 
     .bms-pcard-actions {
@@ -734,9 +734,9 @@
         height: 38px;
         border-radius: 50%;
         background: #ffffff;
-        color: #1e293b;
-        border: 1px solid #e2e8f0;
-        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+        color: #17261e;
+        border: 1px solid #e2e9e4;
+        box-shadow: 0 4px 12px rgba(6, 36, 23, 0.12);
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -746,9 +746,9 @@
     }
 
     .bms-pcard-icon-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff !important;
-        border-color: #335aff;
+        border-color: #0b7a3d;
     }
 
     .bms-pcard-body {
@@ -763,14 +763,14 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.5px;
-        color: #335aff;
+        color: #0b7a3d;
         margin-bottom: 6px;
     }
 
     .bms-pcard-title {
         font-size: 16px;
         font-weight: 700;
-        color: #0f172a !important;
+        color: #062417 !important;
         text-decoration: none !important;
         line-height: 1.4;
         margin-bottom: 10px;
@@ -783,7 +783,7 @@
     }
 
     .bms-pcard-title:hover {
-        color: #335aff !important;
+        color: #0b7a3d !important;
     }
 
     .bms-pcard-price-row {
@@ -797,12 +797,12 @@
     .bms-pcard-price {
         font-size: 18px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-pcard-old-price {
         font-size: 13px;
-        color: #94a3b8;
+        color: #97a39c;
         text-decoration: line-through;
     }
 
@@ -811,7 +811,7 @@
         padding: 11px 16px;
         border-radius: 10px;
         border: 0;
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%);
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%);
         color: #ffffff;
         font-size: 14px;
         font-weight: 700;
@@ -821,12 +821,12 @@
         justify-content: center;
         gap: 8px;
         transition: all 0.22s ease;
-        box-shadow: 0 4px 12px rgba(51, 90, 255, 0.22);
+        box-shadow: 0 4px 12px rgba(11, 122, 61, 0.22);
     }
 
     .bms-pcard-cart-btn:hover {
-        background: linear-gradient(135deg, #2545d8 0%, #1d36b8 100%);
-        box-shadow: 0 6px 18px rgba(51, 90, 255, 0.35);
+        background: linear-gradient(135deg, #035c2d 0%, #024d25 100%);
+        box-shadow: 0 6px 18px rgba(11, 122, 61, 0.35);
         transform: translateY(-1px);
     }
 
@@ -835,7 +835,7 @@
        ============================================================ */
     .bms-why-section {
         padding: 75px 0;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        background: linear-gradient(135deg, #062417 0%, #17261e 100%);
         color: #ffffff;
         position: relative;
         overflow: hidden;
@@ -861,7 +861,7 @@
         bottom: 22px;
         left: 22px;
         right: 22px;
-        background: rgba(15, 23, 42, 0.88);
+        background: rgba(6, 36, 23, 0.88);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.18);
         border-radius: 14px;
@@ -875,7 +875,7 @@
         width: 48px;
         height: 48px;
         border-radius: 12px;
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
         display: inline-flex;
         align-items: center;
@@ -898,7 +898,7 @@
 
     .bms-why-feature-card:hover {
         background: rgba(255, 255, 255, 0.11);
-        border-color: rgba(96, 165, 250, 0.4);
+        border-color: rgba(95, 212, 122, 0.4);
         transform: translateY(-3px);
     }
 
@@ -906,8 +906,8 @@
         width: 42px;
         height: 42px;
         border-radius: 10px;
-        background: rgba(51, 90, 255, 0.25);
-        color: #60a5fa;
+        background: rgba(11, 122, 61, 0.25);
+        color: #5fd47a;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -924,7 +924,7 @@
 
     .bms-why-feature-card p {
         font-size: 13px;
-        color: #94a3b8;
+        color: #97a39c;
         margin: 0;
         line-height: 1.5;
     }
@@ -989,7 +989,7 @@
                     <div class="bms-hero-floating-card">
                         <span class="bms-hero-floating-badge">✨ Exclusive Benefits</span>
                         <h4 style="font-weight: 800; color: #fff; margin-bottom: 12px;">Shop With Complete Confidence</h4>
-                        <p style="font-size: 14px; color: #e2e8f0; line-height: 1.6; margin-bottom: 18px;">
+                        <p style="font-size: 14px; color: #e2e9e4; line-height: 1.6; margin-bottom: 18px;">
                             Every order is quality-checked before dispatch and backed by our dedicated customer support team.
                         </p>
                         <div class="d-flex align-items-center mb-3" style="gap: 12px;">
@@ -1016,59 +1016,59 @@
     @php
         $catThemes = [
             [
-                'grad'   => 'linear-gradient(135deg, #335aff 0%, #6366f1 100%)',
-                'soft'   => 'rgba(51, 90, 255, 0.09)',
-                'shadow' => 'rgba(51, 90, 255, 0.25)',
-                'color'  => '#335aff',
+                'grad'   => 'linear-gradient(135deg, #0b7a3d 0%, #16a330 100%)',
+                'soft'   => 'rgba(11, 122, 61, 0.09)',
+                'shadow' => 'rgba(11, 122, 61, 0.25)',
+                'color'  => '#0b7a3d',
                 'icon'   => 'fas fa-layer-group',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%)',
-                'soft'   => 'rgba(139, 92, 246, 0.09)',
-                'shadow' => 'rgba(139, 92, 246, 0.25)',
-                'color'  => '#8b5cf6',
+                'grad'   => 'linear-gradient(135deg, #0e6b4f 0%, #1f9e78 100%)',
+                'soft'   => 'rgba(14, 107, 79, 0.09)',
+                'shadow' => 'rgba(14, 107, 79, 0.25)',
+                'color'  => '#0e6b4f',
                 'icon'   => 'fas fa-bolt',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
-                'soft'   => 'rgba(16, 185, 129, 0.09)',
-                'shadow' => 'rgba(16, 185, 129, 0.25)',
-                'color'  => '#059669',
+                'grad'   => 'linear-gradient(135deg, #16a330 0%, #0b7a3d 100%)',
+                'soft'   => 'rgba(22, 163, 48, 0.09)',
+                'shadow' => 'rgba(22, 163, 48, 0.25)',
+                'color'  => '#0b7a3d',
                 'icon'   => 'fas fa-gem',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #f97316 0%, #ef4444 100%)',
-                'soft'   => 'rgba(249, 115, 22, 0.09)',
-                'shadow' => 'rgba(249, 115, 22, 0.25)',
-                'color'  => '#ea580c',
+                'grad'   => 'linear-gradient(135deg, #d6131b 0%, #d81e23 100%)',
+                'soft'   => 'rgba(214, 19, 27, 0.09)',
+                'shadow' => 'rgba(214, 19, 27, 0.25)',
+                'color'  => '#a80d14',
                 'icon'   => 'fas fa-fire',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #06b6d4 0%, #2563eb 100%)',
-                'soft'   => 'rgba(6, 182, 212, 0.09)',
-                'shadow' => 'rgba(6, 182, 212, 0.25)',
-                'color'  => '#0891b2',
+                'grad'   => 'linear-gradient(135deg, #1f9e78 0%, #035c2d 100%)',
+                'soft'   => 'rgba(31, 158, 120, 0.09)',
+                'shadow' => 'rgba(31, 158, 120, 0.25)',
+                'color'  => '#0e6b4f',
                 'icon'   => 'fas fa-headphones-alt',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #ec4899 0%, #f43f5e 100%)',
-                'soft'   => 'rgba(236, 72, 153, 0.09)',
-                'shadow' => 'rgba(236, 72, 153, 0.25)',
-                'color'  => '#db2777',
+                'grad'   => 'linear-gradient(135deg, #e0313a 0%, #e0313a 100%)',
+                'soft'   => 'rgba(224, 49, 58, 0.09)',
+                'shadow' => 'rgba(224, 49, 58, 0.25)',
+                'color'  => '#b5101a',
                 'icon'   => 'fas fa-crown',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #eab308 0%, #f97316 100%)',
+                'grad'   => 'linear-gradient(135deg, #eab308 0%, #d6131b 100%)',
                 'soft'   => 'rgba(234, 179, 8, 0.11)',
                 'shadow' => 'rgba(234, 179, 8, 0.25)',
                 'color'  => '#d97706',
                 'icon'   => 'fas fa-star',
             ],
             [
-                'grad'   => 'linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%)',
-                'soft'   => 'rgba(79, 70, 229, 0.09)',
-                'shadow' => 'rgba(79, 70, 229, 0.25)',
-                'color'  => '#4f46e5',
+                'grad'   => 'linear-gradient(135deg, #0b7a3d 0%, #0a5640 100%)',
+                'soft'   => 'rgba(11, 122, 61, 0.09)',
+                'shadow' => 'rgba(11, 122, 61, 0.25)',
+                'color'  => '#0b7a3d',
                 'icon'   => 'fas fa-shopping-bag',
             ],
         ];
@@ -1219,7 +1219,7 @@
                             </div>
                             <div>
                                 <h6 style="color: #fff; font-weight: 700; margin: 0 0 2px;">100% Quality &amp; Trust</h6>
-                                <p style="color: #cbd5e1; font-size: 12px; margin: 0;">Verified products &amp; nationwide doorstep delivery</p>
+                                <p style="color: #cdd7d1; font-size: 12px; margin: 0;">Verified products &amp; nationwide doorstep delivery</p>
                             </div>
                         </div>
                     </div>
@@ -1230,7 +1230,7 @@
                     <h2 style="font-size: 36px; font-weight: 800; color: #ffffff; margin-bottom: 14px;">
                         Why Shop with BD Mega Shop
                     </h2>
-                    <p style="font-size: 16px; color: #cbd5e1; line-height: 1.7; margin-bottom: 28px;">
+                    <p style="font-size: 16px; color: #cdd7d1; line-height: 1.7; margin-bottom: 28px;">
                         Enjoy smart online shopping with premium quality products, unbeatable prices, responsive support, and fast delivery service across all 64 districts of Bangladesh.
                     </p>
 
@@ -1394,7 +1394,7 @@
             <div class="row">
                 <!-- Review 1 -->
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #335aff 0%, #6366f1 100%);">
+                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #0b7a3d 0%, #16a330 100%);">
                         <i class="fas fa-quote-right bms-review-quote-icon"></i>
                         <div>
                             <div class="bms-review-stars">
@@ -1415,7 +1415,7 @@
                             </p>
                         </div>
                         <div class="bms-review-author">
-                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #335aff 0%, #6366f1 100%);">TB</div>
+                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #0b7a3d 0%, #16a330 100%);">TB</div>
                             <div>
                                 <h6>Tisha Bushra</h6>
                                 <span class="bms-review-role">Student &bull; Dhaka</span>
@@ -1426,7 +1426,7 @@
 
                 <!-- Review 2 -->
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #10b981 0%, #059669 100%);">
+                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #16a330 0%, #0b7a3d 100%);">
                         <i class="fas fa-quote-right bms-review-quote-icon"></i>
                         <div>
                             <div class="bms-review-stars">
@@ -1447,7 +1447,7 @@
                             </p>
                         </div>
                         <div class="bms-review-author">
-                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #10b981 0%, #059669 100%);">AR</div>
+                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #16a330 0%, #0b7a3d 100%);">AR</div>
                             <div>
                                 <h6>Arifur Rahman</h6>
                                 <span class="bms-review-role">Private Service Provider</span>
@@ -1458,7 +1458,7 @@
 
                 <!-- Review 3 -->
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%);">
+                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #0e6b4f 0%, #1f9e78 100%);">
                         <i class="fas fa-quote-right bms-review-quote-icon"></i>
                         <div>
                             <div class="bms-review-stars">
@@ -1479,7 +1479,7 @@
                             </p>
                         </div>
                         <div class="bms-review-author">
-                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%);">NM</div>
+                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #0e6b4f 0%, #1f9e78 100%);">NM</div>
                             <div>
                                 <h6>Nusrat Jahan Munna</h6>
                                 <span class="bms-review-role">Lawyer &bull; Verified Buyer</span>
@@ -1490,7 +1490,7 @@
 
                 <!-- Review 4 -->
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #f97316 0%, #ef4444 100%);">
+                    <div class="bms-review-card" style="--rev-grad: linear-gradient(135deg, #d6131b 0%, #d81e23 100%);">
                         <i class="fas fa-quote-right bms-review-quote-icon"></i>
                         <div>
                             <div class="bms-review-stars">
@@ -1511,7 +1511,7 @@
                             </p>
                         </div>
                         <div class="bms-review-author">
-                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #f97316 0%, #ef4444 100%);">TS</div>
+                            <div class="bms-review-avatar" style="--rev-grad: linear-gradient(135deg, #d6131b 0%, #d81e23 100%);">TS</div>
                             <div>
                                 <h6>Tuhin Sarkar</h6>
                                 <span class="bms-review-role">Student &bull; Verified Buyer</span>

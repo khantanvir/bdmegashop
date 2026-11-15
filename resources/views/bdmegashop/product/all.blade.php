@@ -19,7 +19,7 @@
        1. CATALOG HERO & BREADCRUMB BANNER
        ============================================================ */
     .bms-catalog-hero {
-        background: linear-gradient(135deg, #070d1f 0%, #0f172a 55%, #1e1b4b 100%);
+        background: linear-gradient(135deg, #03150d 0%, #062417 55%, #04391d 100%);
         padding: 42px 0 38px;
         position: relative;
         overflow: hidden;
@@ -32,7 +32,7 @@
         width: 420px;
         height: 420px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(51, 90, 255, 0.22) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(11, 122, 61, 0.22) 0%, transparent 70%);
         top: -180px;
         right: -100px;
         pointer-events: none;
@@ -44,7 +44,7 @@
         width: 300px;
         height: 300px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(16, 185, 129, 0.14) 0%, transparent 70%);
+        background: radial-gradient(circle, rgba(22, 163, 48, 0.14) 0%, transparent 70%);
         bottom: -140px;
         left: 10%;
         pointer-events: none;
@@ -59,22 +59,22 @@
         padding: 0;
         margin: 0 0 12px 0;
         font-size: 13px;
-        color: #94a3b8;
+        color: #97a39c;
     }
 
     .bms-catalog-breadcrumb li a {
-        color: #cbd5e1;
+        color: #cdd7d1;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.2s ease;
     }
 
     .bms-catalog-breadcrumb li a:hover {
-        color: #60a5fa;
+        color: #5fd47a;
     }
 
     .bms-catalog-breadcrumb li.active {
-        color: #60a5fa;
+        color: #5fd47a;
         font-weight: 700;
     }
 
@@ -88,7 +88,7 @@
 
     .bms-catalog-hero-sub {
         font-size: 14px;
-        color: #94a3b8;
+        color: #97a39c;
         margin: 0;
     }
 
@@ -101,22 +101,22 @@
         backdrop-filter: blur(8px);
         padding: 10px 18px;
         border-radius: 50px;
-        color: #f8fafc;
+        color: #f7faf8;
         font-size: 13px;
         font-weight: 600;
     }
 
     .bms-catalog-stat-pill strong {
-        color: #60a5fa;
+        color: #5fd47a;
         font-weight: 800;
     }
 
     /* Quick Sub-Category Bar */
     .bms-subcat-strip {
         background: #ffffff;
-        border-bottom: 1px solid #e2e8f0;
+        border-bottom: 1px solid #e2e9e4;
         padding: 14px 0;
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 14px rgba(6, 36, 23, 0.03);
     }
 
     .bms-subcat-scroll {
@@ -133,7 +133,7 @@
     }
 
     .bms-subcat-scroll::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
+        background: #cdd7d1;
         border-radius: 4px;
     }
 
@@ -142,7 +142,7 @@
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 0.6px;
-        color: #64748b;
+        color: #65736c;
         white-space: nowrap;
         margin-right: 4px;
     }
@@ -155,26 +155,26 @@
         border-radius: 50px;
         font-size: 13px;
         font-weight: 600;
-        color: #334155;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        color: #2f3d36;
+        background: #f7faf8;
+        border: 1px solid #e2e9e4;
         text-decoration: none !important;
         white-space: nowrap;
         transition: all 0.2s ease;
     }
 
     .bms-subcat-pill:hover {
-        border-color: #335aff;
-        color: #335aff;
-        background: rgba(51, 90, 255, 0.06);
+        border-color: #0b7a3d;
+        color: #0b7a3d;
+        background: rgba(11, 122, 61, 0.06);
         transform: translateY(-1px);
     }
 
     .bms-subcat-pill.active {
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%);
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%);
         color: #ffffff !important;
         border-color: transparent;
-        box-shadow: 0 6px 14px rgba(51, 90, 255, 0.25);
+        box-shadow: 0 6px 14px rgba(11, 122, 61, 0.25);
     }
 
     .bms-subcat-pill .count {
@@ -182,7 +182,7 @@
         font-weight: 700;
         padding: 1px 7px;
         border-radius: 20px;
-        background: rgba(15, 23, 42, 0.07);
+        background: rgba(6, 36, 23, 0.07);
         color: inherit;
     }
 
@@ -196,7 +196,7 @@
        ============================================================ */
     .bms-catalog-wrap {
         padding: 36px 0 80px;
-        background: #f8fafc;
+        background: #f7faf8;
     }
 
     .bms-sidebar-panel {
@@ -206,11 +206,11 @@
 
     .bms-filter-box {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         padding: 20px;
         margin-bottom: 18px;
-        box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 16px rgba(6, 36, 23, 0.03);
     }
 
     .bms-filter-box-header {
@@ -219,13 +219,13 @@
         justify-content: space-between;
         margin-bottom: 14px;
         padding-bottom: 12px;
-        border-bottom: 1.5px solid #f1f5f9;
+        border-bottom: 1.5px solid #f1f5f2;
     }
 
     .bms-filter-box-title {
         font-size: 15px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
         margin: 0;
         display: flex;
         align-items: center;
@@ -233,7 +233,7 @@
     }
 
     .bms-filter-box-title i {
-        color: #335aff;
+        color: #0b7a3d;
         font-size: 14px;
     }
 
@@ -244,19 +244,19 @@
 
     .bms-sidebar-search input {
         width: 100%;
-        border: 1.5px solid #e2e8f0;
-        background: #f8fafc;
+        border: 1.5px solid #e2e9e4;
+        background: #f7faf8;
         border-radius: 10px;
         padding: 10px 42px 10px 14px;
         font-size: 13.5px;
-        color: #0f172a;
+        color: #062417;
         transition: all 0.2s ease;
     }
 
     .bms-sidebar-search input:focus {
         background: #ffffff;
-        border-color: #335aff;
-        box-shadow: 0 0 0 3px rgba(51, 90, 255, 0.12);
+        border-color: #0b7a3d;
+        box-shadow: 0 0 0 3px rgba(11, 122, 61, 0.12);
         outline: none;
     }
 
@@ -269,7 +269,7 @@
         height: 34px;
         border-radius: 8px;
         border: 0;
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
         display: inline-flex;
         align-items: center;
@@ -279,7 +279,7 @@
     }
 
     .bms-sidebar-search button:hover {
-        background: #2545d8;
+        background: #035c2d;
     }
 
     /* Category & Nested Sub-Category Tree List */
@@ -297,7 +297,7 @@
     }
 
     .bms-filter-tree::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
+        background: #cdd7d1;
         border-radius: 6px;
     }
 
@@ -313,27 +313,27 @@
         border-radius: 10px;
         font-size: 13.5px;
         font-weight: 600;
-        color: #334155;
+        color: #2f3d36;
         text-decoration: none !important;
         transition: all 0.2s ease;
     }
 
     .bms-tree-link:hover {
-        background: #f1f5f9;
-        color: #335aff;
+        background: #f1f5f2;
+        color: #0b7a3d;
     }
 
     .bms-tree-link.active {
-        background: rgba(51, 90, 255, 0.10);
-        color: #335aff;
+        background: rgba(11, 122, 61, 0.10);
+        color: #0b7a3d;
         font-weight: 700;
     }
 
     .bms-tree-badge {
         font-size: 11px;
         font-weight: 700;
-        background: #f1f5f9;
-        color: #64748b;
+        background: #f1f5f2;
+        color: #65736c;
         padding: 2px 8px;
         border-radius: 20px;
         min-width: 26px;
@@ -341,7 +341,7 @@
     }
 
     .bms-tree-link.active .bms-tree-badge {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
     }
 
@@ -349,7 +349,7 @@
         list-style: none;
         padding: 4px 0 6px 14px;
         margin: 2px 0 6px 14px;
-        border-left: 2px dashed #e2e8f0;
+        border-left: 2px dashed #e2e9e4;
     }
 
     .bms-subtree-list li {
@@ -364,19 +364,19 @@
         border-radius: 8px;
         font-size: 12.5px;
         font-weight: 600;
-        color: #64748b;
+        color: #65736c;
         text-decoration: none !important;
         transition: all 0.2s ease;
     }
 
     .bms-subtree-link:hover {
-        color: #335aff;
-        background: rgba(51, 90, 255, 0.05);
+        color: #0b7a3d;
+        background: rgba(11, 122, 61, 0.05);
     }
 
     .bms-subtree-link.active {
         color: #ffffff;
-        background: #335aff;
+        background: #0b7a3d;
         font-weight: 700;
     }
 
@@ -398,30 +398,30 @@
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
-        color: #64748b;
+        color: #65736c;
         margin-bottom: 4px;
     }
 
     .bms-price-field input {
         width: 100%;
-        border: 1.5px solid #e2e8f0;
-        background: #f8fafc;
+        border: 1.5px solid #e2e9e4;
+        background: #f7faf8;
         border-radius: 8px;
         padding: 8px 10px;
         font-size: 13px;
         font-weight: 700;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-price-field input:focus {
-        border-color: #335aff;
+        border-color: #0b7a3d;
         background: #ffffff;
         outline: none;
     }
 
     .bms-price-range-slider {
         width: 100%;
-        accent-color: #335aff;
+        accent-color: #0b7a3d;
         margin: 6px 0 12px;
         cursor: pointer;
     }
@@ -436,9 +436,9 @@
     .bms-price-preset-btn {
         font-size: 11.5px;
         font-weight: 600;
-        color: #475569;
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
+        color: #48564f;
+        background: #f7faf8;
+        border: 1px solid #e2e9e4;
         border-radius: 6px;
         padding: 4px 9px;
         cursor: pointer;
@@ -447,14 +447,14 @@
 
     .bms-price-preset-btn:hover,
     .bms-price-preset-btn.active {
-        background: rgba(51, 90, 255, 0.1);
-        color: #335aff;
-        border-color: #335aff;
+        background: rgba(11, 122, 61, 0.1);
+        color: #0b7a3d;
+        border-color: #0b7a3d;
     }
 
     .bms-apply-filter-btn {
         width: 100%;
-        background: linear-gradient(135deg, #335aff 0%, #2545d8 100%);
+        background: linear-gradient(135deg, #0b7a3d 0%, #035c2d 100%);
         color: #ffffff;
         border: 0;
         border-radius: 10px;
@@ -467,12 +467,12 @@
         justify-content: center;
         gap: 8px;
         transition: all 0.25s ease;
-        box-shadow: 0 6px 14px rgba(51, 90, 255, 0.2);
+        box-shadow: 0 6px 14px rgba(11, 122, 61, 0.2);
     }
 
     .bms-apply-filter-btn:hover {
         transform: translateY(-1px);
-        box-shadow: 0 10px 20px rgba(51, 90, 255, 0.3);
+        box-shadow: 0 10px 20px rgba(11, 122, 61, 0.3);
     }
 
     /* Custom Checkbox Toggles */
@@ -482,29 +482,29 @@
         justify-content: space-between;
         padding: 9px 12px;
         border-radius: 10px;
-        border: 1px solid #f1f5f9;
-        background: #f8fafc;
+        border: 1px solid #f1f5f2;
+        background: #f7faf8;
         margin-bottom: 8px;
         cursor: pointer;
         transition: all 0.2s ease;
     }
 
     .bms-check-option:hover {
-        border-color: #cbd5e1;
+        border-color: #cdd7d1;
         background: #ffffff;
     }
 
     .bms-check-option input[type="checkbox"] {
         width: 17px;
         height: 17px;
-        accent-color: #335aff;
+        accent-color: #0b7a3d;
         cursor: pointer;
     }
 
     .bms-check-label {
         font-size: 13.5px;
         font-weight: 600;
-        color: #1e293b;
+        color: #17261e;
         display: flex;
         align-items: center;
         gap: 8px;
@@ -517,11 +517,11 @@
        ============================================================ */
     .bms-catalog-toolbar {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         padding: 16px 20px;
         margin-bottom: 22px;
-        box-shadow: 0 4px 16px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 16px rgba(6, 36, 23, 0.03);
     }
 
     .bms-toolbar-top {
@@ -534,11 +534,11 @@
 
     .bms-result-summary {
         font-size: 14px;
-        color: #475569;
+        color: #48564f;
     }
 
     .bms-result-summary strong {
-        color: #0f172a;
+        color: #062417;
         font-weight: 800;
     }
 
@@ -551,7 +551,7 @@
 
     .bms-grid-switch {
         display: inline-flex;
-        background: #f1f5f9;
+        background: #f1f5f2;
         padding: 3px;
         border-radius: 9px;
     }
@@ -559,7 +559,7 @@
     .bms-grid-btn {
         border: 0;
         background: transparent;
-        color: #64748b;
+        color: #65736c;
         width: 34px;
         height: 32px;
         border-radius: 7px;
@@ -573,25 +573,25 @@
 
     .bms-grid-btn.active {
         background: #ffffff;
-        color: #335aff;
-        box-shadow: 0 2px 6px rgba(15, 23, 42, 0.08);
+        color: #0b7a3d;
+        box-shadow: 0 2px 6px rgba(6, 36, 23, 0.08);
     }
 
     .bms-sort-select {
-        border: 1.5px solid #e2e8f0;
+        border: 1.5px solid #e2e9e4;
         border-radius: 10px;
         padding: 8px 14px;
         font-size: 13.5px;
         font-weight: 600;
-        color: #0f172a;
-        background: #f8fafc;
+        color: #062417;
+        background: #f7faf8;
         outline: none;
         cursor: pointer;
         transition: border-color 0.2s ease;
     }
 
     .bms-sort-select:focus {
-        border-color: #335aff;
+        border-color: #0b7a3d;
         background: #ffffff;
     }
 
@@ -603,16 +603,16 @@
         gap: 8px;
         margin-top: 14px;
         padding-top: 12px;
-        border-top: 1px dashed #e2e8f0;
+        border-top: 1px dashed #e2e9e4;
     }
 
     .bms-chip {
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        background: rgba(51, 90, 255, 0.08);
-        color: #335aff;
-        border: 1px solid rgba(51, 90, 255, 0.2);
+        background: rgba(11, 122, 61, 0.08);
+        color: #0b7a3d;
+        border: 1px solid rgba(11, 122, 61, 0.2);
         padding: 4px 12px;
         border-radius: 50px;
         font-size: 12px;
@@ -622,15 +622,15 @@
     }
 
     .bms-chip:hover {
-        background: #ef4444;
+        background: #d81e23;
         color: #ffffff;
-        border-color: #ef4444;
+        border-color: #d81e23;
     }
 
     .bms-chip-clear-all {
         font-size: 12px;
         font-weight: 700;
-        color: #ef4444 !important;
+        color: #d81e23 !important;
         text-decoration: none !important;
         margin-left: auto;
     }
@@ -640,7 +640,7 @@
        ============================================================ */
     .bms-pcard {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 16px;
         overflow: hidden;
         transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -648,19 +648,19 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        box-shadow: 0 4px 14px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 4px 14px rgba(6, 36, 23, 0.03);
     }
 
     .bms-pcard:hover {
         transform: translateY(-7px);
-        border-color: #cbd5e1;
-        box-shadow: 0 18px 36px rgba(15, 23, 42, 0.10);
+        border-color: #cdd7d1;
+        box-shadow: 0 18px 36px rgba(6, 36, 23, 0.10);
     }
 
     .bms-pcard-thumb {
         position: relative;
         height: 245px;
-        background: #f8fafc;
+        background: #f7faf8;
         overflow: hidden;
         display: flex;
         align-items: center;
@@ -695,18 +695,18 @@
     }
 
     .bms-pbadge-sale {
-        background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        background: linear-gradient(135deg, #d81e23 0%, #b5101a 100%);
         color: #ffffff;
         font-size: 11px;
         font-weight: 800;
         padding: 4px 10px;
         border-radius: 50px;
         letter-spacing: 0.4px;
-        box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+        box-shadow: 0 4px 10px rgba(216, 30, 35, 0.3);
     }
 
     .bms-pbadge-stock {
-        background: rgba(15, 23, 42, 0.78);
+        background: rgba(6, 36, 23, 0.78);
         backdrop-filter: blur(4px);
         color: #ffffff;
         font-size: 10px;
@@ -716,7 +716,7 @@
     }
 
     .bms-pbadge-stock.out {
-        background: rgba(239, 68, 68, 0.9);
+        background: rgba(216, 30, 35, 0.9);
     }
 
     .bms-pcard-actions {
@@ -742,20 +742,20 @@
         height: 38px;
         border-radius: 50%;
         background: #ffffff;
-        color: #1e293b !important;
-        border: 1px solid #e2e8f0;
+        color: #17261e !important;
+        border: 1px solid #e2e9e4;
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
+        box-shadow: 0 4px 12px rgba(6, 36, 23, 0.12);
         transition: all 0.2s ease;
         text-decoration: none !important;
     }
 
     .bms-pcard-act-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff !important;
-        border-color: #335aff;
+        border-color: #0b7a3d;
         transform: scale(1.08);
     }
 
@@ -771,7 +771,7 @@
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 0.6px;
-        color: #335aff;
+        color: #0b7a3d;
         margin-bottom: 5px;
         display: flex;
         align-items: center;
@@ -780,14 +780,14 @@
     }
 
     .bms-pcard-cat .sub {
-        color: #64748b;
+        color: #65736c;
         font-weight: 600;
     }
 
     .bms-pcard-title {
         font-size: 15px;
         font-weight: 700;
-        color: #0f172a;
+        color: #062417;
         line-height: 1.4;
         margin-bottom: 8px;
         display: -webkit-box;
@@ -800,7 +800,7 @@
     }
 
     .bms-pcard-title:hover {
-        color: #335aff;
+        color: #0b7a3d;
     }
 
     .bms-pcard-rating {
@@ -813,7 +813,7 @@
     }
 
     .bms-pcard-rating span {
-        color: #94a3b8;
+        color: #97a39c;
         font-weight: 600;
         margin-left: 4px;
     }
@@ -830,13 +830,13 @@
     .bms-pcard-price {
         font-size: 18px;
         font-weight: 800;
-        color: #0f172a;
+        color: #062417;
     }
 
     .bms-pcard-old-price {
         font-size: 12.5px;
         font-weight: 600;
-        color: #94a3b8;
+        color: #97a39c;
         text-decoration: line-through;
         margin-left: 5px;
     }
@@ -844,8 +844,8 @@
     .bms-pcard-save {
         font-size: 11px;
         font-weight: 700;
-        color: #10b981;
-        background: rgba(16, 185, 129, 0.1);
+        color: #16a330;
+        background: rgba(22, 163, 48, 0.1);
         padding: 2px 8px;
         border-radius: 6px;
         white-space: nowrap;
@@ -855,9 +855,9 @@
         width: 100%;
         padding: 10px 14px;
         border-radius: 10px;
-        border: 1.5px solid #335aff;
-        background: rgba(51, 90, 255, 0.06);
-        color: #335aff;
+        border: 1.5px solid #0b7a3d;
+        background: rgba(11, 122, 61, 0.06);
+        color: #0b7a3d;
         font-size: 13px;
         font-weight: 700;
         display: inline-flex;
@@ -869,15 +869,15 @@
     }
 
     .bms-pcard-btn:hover {
-        background: #335aff;
+        background: #0b7a3d;
         color: #ffffff;
-        box-shadow: 0 8px 18px rgba(51, 90, 255, 0.25);
+        box-shadow: 0 8px 18px rgba(11, 122, 61, 0.25);
     }
 
     .bms-pcard-btn.disabled {
-        border-color: #cbd5e1;
-        background: #f1f5f9;
-        color: #94a3b8;
+        border-color: #cdd7d1;
+        background: #f1f5f2;
+        color: #97a39c;
         cursor: not-allowed;
         box-shadow: none;
     }
@@ -885,19 +885,19 @@
     /* Empty State */
     .bms-empty-catalog {
         background: #ffffff;
-        border: 1px solid #e2e8f0;
+        border: 1px solid #e2e9e4;
         border-radius: 20px;
         padding: 60px 24px;
         text-align: center;
-        box-shadow: 0 6px 20px rgba(15, 23, 42, 0.03);
+        box-shadow: 0 6px 20px rgba(6, 36, 23, 0.03);
     }
 
     .bms-empty-icon {
         width: 72px;
         height: 72px;
         border-radius: 50%;
-        background: rgba(51, 90, 255, 0.08);
-        color: #335aff;
+        background: rgba(11, 122, 61, 0.08);
+        color: #0b7a3d;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -945,7 +945,7 @@
             </div>
             <div>
                 <div class="bms-catalog-stat-pill">
-                    <i class="fas fa-box-open" style="color: #60a5fa;"></i>
+                    <i class="fas fa-box-open" style="color: #5fd47a;"></i>
                     <span>Available Products: <strong>{{ $products->total() }}</strong></span>
                 </div>
             </div>
@@ -988,7 +988,7 @@
                         <div class="bms-filter-box-header">
                             <h6 class="bms-filter-box-title"><i class="fas fa-search"></i> Search Products</h6>
                             @if($hasActiveFilters)
-                                <a href="{{ url('products') }}" style="font-size: 12px; font-weight: 700; color: #ef4444; text-decoration: none;">
+                                <a href="{{ url('products') }}" style="font-size: 12px; font-weight: 700; color: #d81e23; text-decoration: none;">
                                     Reset All
                                 </a>
                             @endif
@@ -1105,9 +1105,9 @@
                                    min="0" max="{{ $max_catalog_price ?? 50000 }}" step="50"
                                    value="{{ request('max_price', $max_catalog_price ?? 50000) }}"
                                    oninput="document.getElementById('bmsMaxPrice').value = this.value; document.getElementById('bmsSliderValLabel').innerText = 'Up to BDT ' + this.value;">
-                            <div class="d-flex justify-content-between mb-3" style="font-size: 11.5px; font-weight: 600; color: #64748b;">
+                            <div class="d-flex justify-content-between mb-3" style="font-size: 11.5px; font-weight: 600; color: #65736c;">
                                 <span>BDT 0</span>
-                                <span id="bmsSliderValLabel" style="color: #335aff; font-weight: 700;">
+                                <span id="bmsSliderValLabel" style="color: #0b7a3d; font-weight: 700;">
                                     Up to BDT {{ request('max_price', $max_catalog_price ?? 50000) }}
                                 </span>
                             </div>
@@ -1217,7 +1217,7 @@
                                         <input type="hidden" name="{{ $keepKey }}" value="{{ request($keepKey) }}">
                                     @endif
                                 @endforeach
-                                <label class="mb-0" style="font-size: 13px; font-weight: 700; color: #475569;">Sort By:</label>
+                                <label class="mb-0" style="font-size: 13px; font-weight: 700; color: #48564f;">Sort By:</label>
                                 <select name="sort" class="bms-sort-select" onchange="this.form.submit()">
                                     <option value="latest" {{ request('sort', 'latest') === 'latest' ? 'selected' : '' }}>Newest Arrivals</option>
                                     <option value="price_asc" {{ request('sort') === 'price_asc' ? 'selected' : '' }}>Price: Low to High</option>
@@ -1232,7 +1232,7 @@
                     <!-- Active Filter Chips -->
                     @if($hasActiveFilters)
                         <div class="bms-active-chips">
-                            <span style="font-size: 12px; font-weight: 700; color: #64748b;">Active Filters:</span>
+                            <span style="font-size: 12px; font-weight: 700; color: #65736c;">Active Filters:</span>
 
                             @if(filled(request('search')))
                                 <a href="{{ request()->fullUrlWithQuery(['search' => null, 'page' => null]) }}" class="bms-chip">
@@ -1379,7 +1379,7 @@
                                 <div class="bms-empty-icon">
                                     <i class="fas fa-box-open"></i>
                                 </div>
-                                <h4 style="color: #0f172a; font-weight: 800; margin-bottom: 8px;">No Matching Products Found</h4>
+                                <h4 style="color: #062417; font-weight: 800; margin-bottom: 8px;">No Matching Products Found</h4>
                                 <p class="text-muted mb-4" style="max-width: 420px; margin: 0 auto;">
                                     We couldn't find any products matching your selected filters. Try adjusting your price range or clearing some filters.
                                 </p>
