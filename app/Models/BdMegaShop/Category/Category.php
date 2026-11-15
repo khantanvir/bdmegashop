@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models\BdMegaShop\Category;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Category extends Model
+{
+    protected $guarded = [];
+
+    public function products()
+    {
+        return $this->hasMany(Product::class, 'category_id', 'id');
+    }
+
+    public function subCategories()
+    {
+        return $this->hasMany(SubCategory::class, 'category_id', 'id');
+    }
+}
